@@ -16,9 +16,10 @@ export default class Background extends React.Component {
           </div>
         </div>
         <div className="background-container">
-          <div id="item-img">
+          <div>
             <img src={ImgLogin} />
           </div>
+          <div className="form">{this.props.form}</div>
         </div>
       </>
     );

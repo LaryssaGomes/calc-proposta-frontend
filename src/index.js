@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import HomeLogado from "./pages/HomeLogado";
+import RegisterProposal from "./pages/RegisterProposal";
 import "./global.css";
 
 ReactDOM.render(
@@ -12,6 +14,8 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
+      <Route path="/homelogado" component={HomeLogado} />
+      <Route path="/registerproposal" component={RegisterProposal} />
     </Switch>
   </Router>,
   document.getElementById("root")

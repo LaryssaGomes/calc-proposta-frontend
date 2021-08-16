@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.scss";
-import eye from "../../icons/eye.svg";
-export default class FormLogin extends React.Component {
+
+export default class FormRegister extends React.Component {
   render() {
     return (
       <div id="form-login">
         <form>
           <div className="title">
-            <p>Login</p>
+            <p>Cadastro</p>
           </div>
           <div>
             <div>
@@ -19,12 +19,10 @@ export default class FormLogin extends React.Component {
           </div>
           <div class="button-form">
             <div>
-              <button id="login" type="submit">
-                Entrar
-              </button>
+              <button type="submit">Cadastrar</button>
             </div>
-            <div className="button-register">
-              <a href="/register"> Cadastro</a>
+            <div className="button-login">
+              <a href="/login"> Login</a>
             </div>
           </div>
         </form>

@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   .title {
     margin-bottom: 50px;
   }
@@ -14,6 +13,7 @@
   div input {
     margin-top: 20px;
     padding: 15px 20px;
+    width: 300px;
     border-radius: 10px;
     border: 1px rgba(50, 112, 226, 0.5) solid;
   }
@@ -25,29 +25,26 @@
   }
 
   .button-form {
+    margin-top: 20px;
     display: flex;
 
     button {
       cursor: pointer;
       border: 0 none;
-      background-color: #3980ff;
-    }
-
-    #login {
+      padding: 20px 40px !important;
       border-radius: 10px;
       color: #fff;
       font-size: 0.8rem;
-      padding: 20px 50px !important;
     }
 
-    .button-register {
+    .button-login {
       margin-top: 16px;
 
       a {
         margin-left: 10px;
         border: 2px solid #3980ff;
         border-radius: 10px;
-        padding: 18px 38px;
+        padding: 18px 50px !important;
         background-color: #fff;
         color: #3980ff;
         font-size: 0.8rem;
