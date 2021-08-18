@@ -1,6 +1,6 @@
 import React from "react";
-import ImgLogo from "../../img/logo-omega.png";
-import ImgLogin from "../../img/login-register.jpg";
+import ImgLogo from "../../../assets/img/logo-omega.png";
+import ImgLogin from "../../../assets/img/login-register.jpg";
 import "./styles.scss";
 export default class Background extends React.Component {
   render() {

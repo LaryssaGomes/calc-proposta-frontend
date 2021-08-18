@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap");
 
 * {
-  font-family: "Roboto";
+  font-family: "Roboto" !important;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
 
 li {

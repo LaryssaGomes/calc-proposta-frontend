@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import HomeLogado from "./pages/HomeLogado";
-import RegisterProposal from "./pages/RegisterProposal";
-import "./global.css";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import HomeLogado from "./pages/HomeLogado.jsx";
+import RegisterProposal from "./pages/RegisterProposal.jsx";
+import "./styles/reset.css";
+import "./styles/global.css";
 
 ReactDOM.render(
   <Router>

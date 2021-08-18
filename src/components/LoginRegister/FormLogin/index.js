@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.scss";
-import eye from "../../icons/eye.svg";
+
 export default class FormLogin extends React.Component {
   render() {
     return (
       <div id="form-login">
-        <form>
+        <form autocomplete="off">
           <div className="title">
             <p>Login</p>
           </div>

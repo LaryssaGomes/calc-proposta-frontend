@@ -1,5 +1,5 @@
 import React from "react";
-import LogoOmega from "../../img/logo-omega.png";
+import LogoOmega from "../../../assets/img/logo-omega.png";
 import "./styles.scss";
 
 export default class NavBar extends React.Component {

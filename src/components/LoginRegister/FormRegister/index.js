@@ -5,16 +5,16 @@ export default class FormRegister extends React.Component {
   render() {
     return (
       <div id="form-login">
-        <form>
+        <form method="post">
           <div className="title">
             <p>Cadastro</p>
           </div>
           <div>
             <div>
-              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Email" autocomplete="off" />
             </div>
             <div>
-              <input type="password" placeholder="Senha" />
+              <input type="password" placeholder="Senha" autocomplete="off" />
             </div>
           </div>
           <div class="button-form">

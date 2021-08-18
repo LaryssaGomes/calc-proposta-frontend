@@ -1,0 +1,143 @@
+.form-register {
+  select {
+    border: 1px rgba(50, 112, 226, 0.5) solid !important;
+  }
+  .bstrash {
+    cursor: pointer;
+    background-color: #3980ff;
+  }
+
+  .list-charge {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 250px;
+
+    ul {
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      li:nth-child(1) {
+        display: none;
+      }
+      li {
+        margin-top: 15px;
+
+        background-color: #3980ff;
+        border-radius: 10px;
+        color: #fff;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-around;
+
+        .text {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+
+          p {
+            max-width: 19ch;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+
+        .icon {
+          width: 60px;
+        }
+      }
+    }
+  }
+
+  .form-label {
+    font-weight: normal;
+    font-family: "Roboto" !important;
+  }
+
+  input[type="month"] {
+    text-align: center;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  input {
+    border: 1px rgba(50, 112, 226, 0.5) solid !important;
+  }
+
+  .title {
+    margin-top: 20px;
+    margin-left: 2px;
+  }
+
+  .line-2-right {
+    margin-top: 50px;
+  }
+
+  .save {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-top: 50px;
+      background-color: #fe7062;
+      border-color: #fe7062;
+    }
+  }
+}
+// Responsividade
+
+@media (max-width: 1000px) {
+  .form-register {
+    .text {
+      p {
+        width: 12ch;
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  body {
+    overflow-y: scroll !important;
+  }
+  .save {
+    button {
+      margin-top: 10px !important;
+      margin-bottom: 20px !important;
+    }
+  }
+  .form-register {
+    h1 {
+      font-size: 1.2rem;
+    }
+
+    #dates-submarket .col-md-4:nth-child(-n + 2) {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+    #row-media {
+      display: flex;
+      .col-md-8:nth-child(1) {
+        order: 2;
+      }
+      .line-2-right {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  #register-charge {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .form-register {
+    transform: scale(0.8);
+  }
+}

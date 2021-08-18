@@ -1,5 +1,5 @@
 import React from "react";
-import ImgHome from "../../img/home.jpg";
+import ImgHome from "../../../assets/img/home.jpg";
 import "./main-styles.scss";
 export default class Main extends React.Component {
   render() {
