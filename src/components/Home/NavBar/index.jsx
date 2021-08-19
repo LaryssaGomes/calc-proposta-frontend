@@ -1,20 +1,15 @@
 import React from "react";
-import LogoOmega from "../../../assets/img/logo-omega.png";
+import Logo from "../../Global/Logo/index.jsx";
 import "./styles.scss";
 
 export default class NavBar extends React.Component {
   render() {
     return (
-      <nav>
+      <nav className="navbar-home">
         <ul>
           <li className="items-left">
             <a href="/">
-              <div className="logo">
-                <div>
-                  <img src={LogoOmega} />
-                </div>
-              </div>
-              <div className="logo-text">Omega</div>
+              <Logo />
             </a>
           </li>
 

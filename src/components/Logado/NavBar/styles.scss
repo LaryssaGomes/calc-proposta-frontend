@@ -74,7 +74,7 @@
 
   .change-bg {
     width: 520px;
-    height: 460px;
+    height: 400px;
     transform: translate(-60%, -30%);
   }
 
@@ -84,7 +84,7 @@
     #menu-bar {
       width: 45px;
       height: 40px;
-      margin: 30px 0 20px 20px;
+      margin: 30px 0 20px 40px;
       cursor: pointer;
 
       .bar {
@@ -114,12 +114,14 @@
       flex-direction: column;
       padding: 0 22px !important;
 
-      #li {
+      span {
         padding: 12px 0 !important;
 
         a {
+          width: 100%;
           color: #fff;
-          font-size: 20px;
+          font-size: 0.8rem;
+          margin-left: 20px;
         }
 
         a:hover {
@@ -131,6 +133,7 @@
 }
 .navigation {
   position: fixed;
+  z-index: 10;
   top: 20px;
   left: 5px;
   bottom: 20px;
@@ -142,21 +145,21 @@
   transition: width 0.5s;
 
   ul {
-    position: absolute;
+    position: absolute !important;
     top: 0px;
     left: 0px;
-    width: 100%;
+    width: 100% !important;
     padding-left: 5px;
     padding-top: 40px;
 
-    li {
+    .list {
       position: relative;
-      width: 100%;
+      width: 100% !important;
       margin: 5px 0px 0px;
 
       a {
         position: relative;
-        width: 100%;
+        width: 100% !important;
         display: flex;
         text-decoration: none;
         color: #fff;
@@ -187,7 +190,7 @@
   }
 }
 .navigation {
-  li:hover {
+  .list:hover {
     background-color: #fff;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -199,7 +202,7 @@
 }
 .navigation {
   ul {
-    li {
+    .list {
       b:nth-child(1) {
         position: absolute;
         top: -20px;
@@ -239,8 +242,8 @@
       }
     }
 
-    li:hover b:nth-child(1),
-    li:hover b:nth-child(2) {
+    .list:hover b:nth-child(1),
+    .list:hover b:nth-child(2) {
       display: block;
     }
   }
@@ -253,11 +256,15 @@
   .navigation-hamburguer {
     display: inline !important;
   }
+
   .item-reight {
+    display: flex;
+    align-items: center;
+
     margin-left: 0px !important;
 
     #items {
-      display: block;
+      display: flex;
     }
   }
 }

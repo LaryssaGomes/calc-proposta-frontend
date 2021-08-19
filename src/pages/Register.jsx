@@ -1,6 +1,6 @@
 import React from "react";
-import Background from "../components/LoginRegister/Background/index.js";
-import FormRegister from "../components/LoginRegister/FormRegister/index.js";
+import Background from "../components/LoginRegister/Background/index.jsx";
+import FormRegister from "../components/LoginRegister/FormRegister/index.jsx";
 const Register = () => (
   <>
     <Background form={<FormRegister />} />

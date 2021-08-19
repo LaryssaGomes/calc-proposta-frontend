@@ -1,0 +1,28 @@
+.logo-omega {
+  display: flex;
+  margin-left: auto;
+  height: 60px;
+  margin-top: 20px;
+
+  img {
+    width: 60px;
+  }
+
+  .logo-name {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }
+}
+// Responsividade
+@media (max-width: 760px) {
+  .logo-omega {
+    transform: scale(0.7);
+    margin-top: 10px;
+  }
+}

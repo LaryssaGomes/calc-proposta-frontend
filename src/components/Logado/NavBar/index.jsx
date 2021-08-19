@@ -1,5 +1,8 @@
 import React from "react";
 import "./styles.scss";
+import Logo from "../../Global/Logo/index.jsx";
+
+// Icons
 import { AiOutlineHome, AiOutlineLogout } from "react-icons/ai";
 import { BsFileEarmarkText } from "react-icons/bs";
 
@@ -77,21 +80,22 @@ export default class NavBar extends React.Component {
               <div id="bar3" className="bar"></div>
             </div>
             <nav className={this.state.itemsNav} id="nav">
-              <ul id="ul">
-                <li id="li">
+              <div id="ul">
+                <span id="li">
                   <a href="#">HomeLogado</a>
-                </li>
-                <li id="li">
+                </span>
+                <span id="li">
                   <a href="#">HomeLogado</a>
-                </li>
-                <li id="li">
+                </span>
+                <span id="li">
                   <a href="#">HomeLogado</a>
-                </li>
-              </ul>
+                </span>
+              </div>
             </nav>
           </div>
           <div className={this.state.itemsChangeBg} id="menu-bg"></div>
         </div>
+        <Logo />
         <div className="item-reight">
           <div id="items">{this.props.itemReight}</div>
         </div>

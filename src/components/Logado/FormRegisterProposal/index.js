@@ -108,6 +108,7 @@ export default class FormRegisterProposal extends React.Component {
                   </Button>
 
                   <Modal
+                    className="modal-add-charge"
                     show={this.state.show}
                     onHide={() =>
                       this.setState({ show: (this.state.show = false) })

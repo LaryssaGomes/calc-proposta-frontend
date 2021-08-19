@@ -9,7 +9,7 @@ export default class Background extends React.Component {
         <div className="background"></div>
         <div className="logo">
           <div>
-            <img src={ImgLogo} />
+            <img src={ImgLogo} alt="logo" />
           </div>
           <div>
             <p>Omega</p>
@@ -17,7 +17,7 @@ export default class Background extends React.Component {
         </div>
         <div className="background-container">
           <div>
-            <img src={ImgLogin} />
+            <img src={ImgLogin} alt="login" />
           </div>
           <div className="form">{this.props.form}</div>
         </div>
