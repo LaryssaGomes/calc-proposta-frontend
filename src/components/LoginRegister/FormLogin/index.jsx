@@ -2,6 +2,16 @@ import React from "react";
 import "./styles.scss";
 
 export default class FormLogin extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+  }
+
   render() {
     return (
       <div id="form-login">
@@ -11,10 +21,22 @@ export default class FormLogin extends React.Component {
           </div>
           <div>
             <div>
-              <input type="text" placeholder="Email" />
+              <input
+                type="text"
+                placeholder="Email"
+                name="email"
+                onChange={this.onChange}
+                required
+              />
             </div>
             <div>
-              <input type="password" placeholder="Senha" />
+              <input
+                type="password"
+                placeholder="Senha"
+                name="password"
+                onChange={this.onChange}
+                required
+              />
             </div>
           </div>
           <div class="button-form">

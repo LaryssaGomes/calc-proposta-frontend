@@ -2,14 +2,6 @@ import React from "react";
 import "./styles.scss";
 
 export default class FormRegister extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: "",
-      password: "",
-      err: "",
-    };
-  }
   render() {
     return (
       <div id="form-login">
@@ -19,10 +11,13 @@ export default class FormRegister extends React.Component {
           </div>
           <div>
             <div>
-              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Nome" required />
             </div>
             <div>
-              <input type="password" placeholder="Senha" />
+              <input type="text" placeholder="Email" required />
+            </div>
+            <div>
+              <input type="password" placeholder="Senha" required />
             </div>
           </div>
           <div class="button-form">

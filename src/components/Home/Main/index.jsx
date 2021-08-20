@@ -18,7 +18,7 @@ export default class Main extends React.Component {
           </div>
         </div>
         <div>
-          <img src={ImgHome} />
+          <img src={ImgHome} alt="home login" />
         </div>
       </div>
     );

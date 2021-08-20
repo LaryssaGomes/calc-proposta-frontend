@@ -9,6 +9,11 @@
   background-color: #e6edfd;
   overflow-y: inherit;
 }
+.barra-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .logo {
   display: flex;
   justify-content: flex-end;

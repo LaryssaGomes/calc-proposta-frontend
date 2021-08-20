@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../components/Logado/NavBar/index.jsx";
-import CardProposal from "../components/Logado/Card/index.jsx";
+import NavBar from "../components/Logado/NavBar";
+import CardProposal from "../components/Logado/Card";
 import API from "../api/api.jsx";
 export default class HomeLogado extends React.Component {
   constructor() {

@@ -1,6 +1,6 @@
 import React from "react";
-import Background from "../components/LoginRegister/Background/index.jsx";
-import FormLogin from "../components/LoginRegister/FormLogin/index.jsx";
+import Background from "../components/LoginRegister/Background";
+import FormLogin from "../components/LoginRegister/FormLogin";
 
 const Login = () => (
   <>

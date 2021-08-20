@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../components/Logado/NavBar/index.jsx";
-import FormRegisterProposal from "../components/Logado/FormRegisterProposal/index.js";
+import NavBar from "../components/Logado/NavBar";
+import FormRegisterProposal from "../components/Logado/FormRegisterProposal";
 const RegisterProposal = () => (
   <>
     <NavBar itemReight={<FormRegisterProposal />} />

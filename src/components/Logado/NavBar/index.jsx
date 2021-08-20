@@ -88,7 +88,7 @@ export default class NavBar extends React.Component {
                   <a href="/registerproposal">Adicionar</a>
                 </span>
                 <span id="li">
-                  <a href="#">Sair</a>
+                  <a href="/#">Sair</a>
                 </span>
               </div>
             </nav>

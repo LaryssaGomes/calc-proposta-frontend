@@ -22,3 +22,12 @@ ul {
 a {
   text-decoration: none;
 }
+.false-alert {
+  position: fixed;
+  top: 20px;
+  display: flex;
+  margin-right: 20px;
+}
+.true-alert {
+  display: none;
+}
