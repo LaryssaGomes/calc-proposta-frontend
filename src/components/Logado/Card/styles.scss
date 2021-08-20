@@ -1,18 +1,25 @@
+.home-title {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
 .cards-proposal-container {
-  body {
-    overflow-y: auto;
-  }
+  overflow-y: auto;
+  max-height: 560px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20%;
-  overflow-y: auto;
-  height: 100%;
+
+  .item-fonte {
+    margin-top: 20px;
+  }
 
   .mb-3 {
     background-color: #e6edfd;
+    border: 1px solid #e6edfd;
     font-weight: 300;
 
     .h5 {
@@ -20,23 +27,41 @@
     }
 
     .icon {
-      color: #ffff00;
+      color: #000;
       cursor: pointer;
+
+      #items-change {
+        display: none;
+        thead tr th {
+          font-weight: 400;
+          margin-top: 10px;
+        }
+      }
     }
+
+    .icon:hover #items-change {
+      display: block;
+      position: relative;
+      margin-left: -170px;
+    }
+
     .buttons {
       display: flex;
       justify-content: flex-end;
 
       button {
+        margin-top: 10px;
         margin-left: 10px;
-        border-radius: 20px;
         padding: 10px;
         font-size: 0.8rem;
       }
-
-      .btn-delete {
-        background-color: red;
-        border: solid 1px #e6edfd;
+      button:nth-child(2) {
+        background-color: #fe7062;
+        border: 1px solid #fe7062;
+      }
+      button:nth-child(2):hover {
+        background-color: #e26256;
+        border: 1px solid #e26256;
       }
     }
   }
@@ -45,10 +70,31 @@
     margin-left: 10px;
   }
 }
-
 @media (max-width: 1000px) {
+  .cards-proposal-container {
+    max-height: 100%;
+  }
+}
+@media (max-width: 900px) {
   .cards-proposal-container {
     width: 100%;
     margin-left: 0;
+    transform: scale(1);
+    justify-content: center;
+  }
+  .home-title {
+    margin-left: 0;
+    height: 60px;
+  }
+}
+@media (max-width: 760px) {
+  .cards-proposal-container {
+    .mb-3 {
+      transform: scale(0.9);
+    }
+  }
+  .home-title {
+    margin-left: 0;
+    height: 60px;
   }
 }

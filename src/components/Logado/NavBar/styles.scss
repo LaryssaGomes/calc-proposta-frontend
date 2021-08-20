@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  overflow-y: auto;
 
   .navigation-hamburguer {
     display: none;

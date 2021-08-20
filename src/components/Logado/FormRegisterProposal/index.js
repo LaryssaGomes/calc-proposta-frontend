@@ -82,12 +82,13 @@ export default class FormRegisterProposal extends React.Component {
             </Form.Group>
 
             <Form.Group as={Col} md="4">
-              <Form.Label>Submercado</Form.Label>
+              <Form.Label>Sub-mercado</Form.Label>
               <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
-                <option value="0">Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option value="" data-default disabled selected></option>
+                <option value="NORTE">NORTE</option>
+                <option value="NORDESTE">NORDESTE</option>
+                <option value="SUL">SUL</option>
+                <option value="SULDESTE">SULDESTE</option>
               </Form.Select>
             </Form.Group>
           </Row>
@@ -127,7 +128,8 @@ export default class FormRegisterProposal extends React.Component {
                           <Form.Group as={Col} md="6">
                             <Form.Label>Consumo</Form.Label>
                             <Form.Control
-                              type="text"
+                              type="number"
+                              step=".01"
                               onBlur={this.onConsumption}
                             />
                           </Form.Group>
@@ -187,10 +189,9 @@ export default class FormRegisterProposal extends React.Component {
               <Form.Group>
                 <Form.Label>Fonte de energia</Form.Label>
                 <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
-                  <option value="0">Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="" data-default disabled selected></option>
+                  <option value="CONVECIONAL">CONVECIONAL</option>
+                  <option value="RENOVAVEL">RENOVAVEL</option>
                 </Form.Select>
               </Form.Group>
               <br />

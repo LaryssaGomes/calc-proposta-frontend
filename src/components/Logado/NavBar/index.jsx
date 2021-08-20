@@ -82,13 +82,13 @@ export default class NavBar extends React.Component {
             <nav className={this.state.itemsNav} id="nav">
               <div id="ul">
                 <span id="li">
-                  <a href="#">HomeLogado</a>
+                  <a href="/homelogado">Home</a>
                 </span>
                 <span id="li">
-                  <a href="#">HomeLogado</a>
+                  <a href="/registerproposal">Adicionar</a>
                 </span>
                 <span id="li">
-                  <a href="#">HomeLogado</a>
+                  <a href="#">Sair</a>
                 </span>
               </div>
             </nav>
