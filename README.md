@@ -19,6 +19,7 @@ Adiconar propostas
 ## Dethalhes adicionais:
 
 Cadastro de propostas 
+  
   existe uma verificação de nos campos date_inicio e date_fim
 
 
