@@ -20,6 +20,8 @@ Adiconar propostas
 
 Cadastro de propostas 
   
-  existe uma verificação de nos campos date_inicio e date_fim
+  Existe uma verificação de nos campos date_inicio e date_fim
+  Criação do arrays de cargas
+  
 
 
