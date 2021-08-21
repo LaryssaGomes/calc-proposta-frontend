@@ -5,10 +5,10 @@ Designer no figma : https://www.figma.com/file/yIFhs48dXyXos8TzDoBLSs/Omega-tech
 ## Telas responsiveis
 
 Home
-Login 
-Cadastro de usuario
-Cadastro de propostas
-Adiconar telas
+*Login 
+*Cadastro de usuario
+*Cadastro de propostas
+*Adiconar telas
 
 ## Dethalhes adicionais:
 
