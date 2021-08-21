@@ -9,7 +9,7 @@
 
   .list-charge {
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: visible !important;
     height: 250px;
 
     ul {

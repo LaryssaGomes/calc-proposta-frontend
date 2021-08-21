@@ -50,6 +50,8 @@ export default class FormRegisterProposal extends React.Component {
     this.setState({ items });
   };
 
+  componentDidUpdate() {}
+
   render() {
     const { items } = this.state;
     // Limitando a data de cadastro
@@ -73,17 +75,17 @@ export default class FormRegisterProposal extends React.Component {
           <Row className="mb-3" id="dates-submarket">
             <Form.Group as={Col} md="4">
               <Form.Label>Data inicio</Form.Label>
-              <Form.Control type="month" min={currentDate} required />
+              <Form.Control type="month" min={currentDate} name="" required />
             </Form.Group>
 
             <Form.Group as={Col} md="4">
               <Form.Label>Data de termino</Form.Label>
-              <Form.Control type="month" min={minimumDate} required />
+              <Form.Control type="month" min={minimumDate} name="" required />
             </Form.Group>
 
             <Form.Group as={Col} md="4">
               <Form.Label>Sub-mercado</Form.Label>
-              <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
+              <Form.Select className="me-sm-2" name="" required>
                 <option value="" data-default disabled selected></option>
                 <option value="NORTE">NORTE</option>
                 <option value="NORDESTE">NORDESTE</option>
@@ -188,7 +190,7 @@ export default class FormRegisterProposal extends React.Component {
             <Col md="4" className="line-2-right">
               <Form.Group>
                 <Form.Label>Fonte de energia</Form.Label>
-                <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
+                <Form.Select className="me-sm-2" name="" required>
                   <option value="" data-default disabled selected></option>
                   <option value="CONVECIONAL">CONVECIONAL</option>
                   <option value="RENOVAVEL">RENOVAVEL</option>
@@ -201,7 +203,7 @@ export default class FormRegisterProposal extends React.Component {
               </Form.Group>
             </Col>
           </Row>
-          <div className="save">
+          <div className="save" type="submit">
             <Button>Salvar Proposta</Button>
           </div>
         </div>

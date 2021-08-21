@@ -13,216 +13,83 @@ export default class CardProposal extends React.Component {
         </div>
 
         <div className="cards-proposal-container" id="scroll">
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">dado</div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">dado</div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">
-                      <Table striped bordered hover size="sm">
-                        <thead>
-                          <tr>
-                            <th>Carga</th>
-                            <th>Consumo</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                          </tr>
-                        </tbody>
-                      </Table>
-                    </div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">dado</div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">dado</div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
-          <Card className="mb-3">
-            <Card.Body>
-              <Card.Title> Periodo</Card.Title>
-              <Card.Text>Some quick example text</Card.Text>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>Fonte de energia</Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-                <Col>
-                  <Card.Title> Submercado </Card.Title>
-                  <Card.Text>Some quick</Card.Text>
-                </Col>
-              </Row>
-              <Row className="item-fonte">
-                <Col>
-                  <Card.Title>R$ 100.000,00</Card.Title>
-                </Col>
-                <Col>
-                  <span className="icon">
-                    <BsLightningFill /> Lista de cargas
-                    <div id="items-change">
-                      <Table striped bordered hover size="sm">
-                        <thead>
-                          <tr>
-                            <th>Carga</th>
-                            <th>Consumo</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                          </tr>
-                        </tbody>
-                      </Table>
-                    </div>
-                  </span>
-                </Col>
-              </Row>
-              <Col className="buttons">
-                <Button variant="primary">Contratado</Button>
-              </Col>
-            </Card.Body>
-          </Card>
+          {this.props.proposals.map((index, proposal) => {
+            return (
+              <Card className="mb-3" key={index}>
+                <Card.Body>
+                  <Card.Title>Periodo</Card.Title>
+                  <Card.Text>
+                    {proposal.data_inicio} - {proposal.data_fim}
+                  </Card.Text>
+                  <Row className="item-fonte">
+                    <Col>
+                      <Card.Title>Fonte de energia</Card.Title>
+                      <Card.Text>{proposal.fonte_energia}</Card.Text>
+                    </Col>
+                    <Col>
+                      <Card.Title> Sub-mercado </Card.Title>
+                      <Card.Text>{proposal.submercado}</Card.Text>
+                    </Col>
+                  </Row>
+                  <Row className="item-fonte">
+                    <Col>
+                      <Card.Title>R$ {proposal.valor_proposta}</Card.Title>
+                    </Col>
+                    <Col>
+                      <span className="icon">
+                        <BsLightningFill /> Cargas
+                        <div id="items-change">
+                          <Table striped bordered hover size="sm">
+                            <thead>
+                              <tr>
+                                <th>Carga</th>
+                                <th>Consumo</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {proposal.cargas.map((index, carga) => {
+                                return (
+                                  <tr key={index}>
+                                    <td>{carga.title}</td>
+                                    <td>{carga.consumo}</td>
+                                  </tr>
+                                );
+                              })}
+                            </tbody>
+                          </Table>
+                        </div>
+                      </span>
+                    </Col>
+                  </Row>
+                  {proposal.contratada ? (
+                    <Col className="buttons">
+                      <Button variant="primary">Contratado</Button>
+                    </Col>
+                  ) : (
+                    <Col className="buttons">
+                      <Button
+                        onClick={(e) =>
+                          this.props.removeProposal(e.target.value)
+                        }
+                        value={proposal.id_publico}
+                      >
+                        Fechar
+                      </Button>
+                      <Button
+                        variant="primary"
+                        onClick={(e) =>
+                          this.props.contractProposal(e.target.value)
+                        }
+                        value={proposal.id_publico}
+                      >
+                        Contratar
+                      </Button>
+                    </Col>
+                  )}
+                </Card.Body>
+              </Card>
+            );
+          })}
         </div>
       </>
     );

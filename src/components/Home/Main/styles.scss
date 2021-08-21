@@ -87,13 +87,16 @@ body {
     }
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .main-container {
     margin-top: 35%;
+    display: flex;
+    justify-content: center;
 
     .main-text {
-      margin-left: 0px;
-      transform: scale(0.8);
+      margin-left: 20px;
+
+      transform: scale(0.9);
     }
   }
 }

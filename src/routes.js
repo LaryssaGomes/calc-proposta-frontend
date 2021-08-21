@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import HomeLogado from "./pages/HomeLogado";
-import RegisterProposal from "./pages/RegisterProposal";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import HomeLogado from "./pages/home-logado";
+import RegisterProposal from "./pages/register-proposal";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { isAuthenticated } from "./api/auth";
 
