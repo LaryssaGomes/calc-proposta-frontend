@@ -25,4 +25,7 @@ Cadastro de propostas
   Criação do arrays de cargas
   
 
+Backend
+  - Autenticação com jwt
+  
 
